@@ -1,0 +1,94 @@
+html body{
+    background-color: cornflowerblue;
+    padding: 0;margin: 0;
+
+}
+
+.container{
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    border-radius: 22px;
+    padding-bottom: 20px;
+    width: 360px;
+    height: 460px;
+    padding-left: -10px;
+    background-image: url(/Images/london.png);
+    background-size: cover;
+
+}
+
+.display{
+    width: 100%;
+    height: 60px;
+    padding: 40px 0;
+    background: rgb(11, 214, 204)  !important;
+    border-radius: 22px;
+}
+
+.displayText{
+    width: 98%;
+height: 50px;
+font-size: 25px;
+font-weight: 500;
+
+text-align: end;
+background-color: rgb(255, 255, 255);
+color: black;
+border-radius: 10px;
+border: 2px solid aqua;
+}
+
+.button{
+    padding: 20px 20px 0 55px;
+
+
+}
+.row{
+    width: 280px;
+    float: left;
+}
+.btn:hover{
+    background-color: rgb(29, 202, 202);
+    color: black;
+
+}
+input[type=button]{
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 0;
+    margin: 10px;
+    box-sizing: border-box;
+    background-color: #14dcc0d1;
+border: 1px solid black;
+font-size: 40px;
+    line-height: 40px;
+    border-radius: 30%;
+    font-weight: 600;
+    color: dimgray;
+    cursor: pointer;
+
+}
+
+input[type=text]{
+    width: 280px;
+height: 61px;
+float: right;
+padding: 2px;
+box-sizing: border-box;
+border: 2px solid black;
+background-color: none;
+color: black;
+font-size: 45px;
+text-align: right;
+line-height: 35px;
+margin: 0px 25px;
+}
+
+.blue{
+    background-color: orangered;
+    color: palegreen;
+
+}
